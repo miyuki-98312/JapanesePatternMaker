@@ -1,0 +1,267 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\amimemon_L.png" />
+    <None Remove="images\amimemon_S.png" />
+    <None Remove="images\asanoha_L.png" />
+    <None Remove="images\asanoha_S.png" />
+    <None Remove="images\fundoutsunagi_L.png" />
+    <None Remove="images\fundoutsunagi_S.png" />
+    <None Remove="images\higaki_L.png" />
+    <None Remove="images\higaki_S.png" />
+    <None Remove="images\hishi_L.png" />
+    <None Remove="images\hishi_S.png" />
+    <None Remove="images\ichimatsu_L.png" />
+    <None Remove="images\ichimatsu_S.png" />
+    <None Remove="images\ichinojitsunagi_L.png" />
+    <None Remove="images\ichinojitsunagi_S.png" />
+    <None Remove="images\icon.png" />
+    <None Remove="images\igeta_L.png" />
+    <None Remove="images\igeta_S.png" />
+    <None Remove="images\kagome_L.png" />
+    <None Remove="images\kagome_S.png" />
+    <None Remove="images\kikko_L.png" />
+    <None Remove="images\kikko_L_2.png" />
+    <None Remove="images\kikko_S.png" />
+    <None Remove="images\kikko_S_2.png" />
+    <None Remove="images\komochijima_L.png" />
+    <None Remove="images\komochijima_L_2.png" />
+    <None Remove="images\komochijima_S.png" />
+    <None Remove="images\komochijima_S_2.png" />
+    <None Remove="images\kuginukitsunagi_L.png" />
+    <None Remove="images\kuginukitsunagi_S.png" />
+    <None Remove="images\kuginuki_L.png" />
+    <None Remove="images\kuginuki_S.png" />
+    <None Remove="images\kuruwatsunagi_L.png" />
+    <None Remove="images\kuruwatsunagi_S.png" />
+    <None Remove="images\okinagoushi_L.png" />
+    <None Remove="images\okinagoushi_S.png" />
+    <None Remove="images\sankuzushi_L.png" />
+    <None Remove="images\sankuzushi_S.png" />
+    <None Remove="images\seigaiha_L.png" />
+    <None Remove="images\seigaiha_L_2.png" />
+    <None Remove="images\seigaiha_S.png" />
+    <None Remove="images\seigaiha_S_2.png" />
+    <None Remove="images\shippo_L.png" />
+    <None Remove="images\shippo_L_2.png" />
+    <None Remove="images\shippo_S.png" />
+    <None Remove="images\shippo_S_2.png" />
+    <None Remove="images\takedabishi_L.png" />
+    <None Remove="images\takedabishi_S.png" />
+    <None Remove="images\urokomoyou_L.png" />
+    <None Remove="images\urokomoyou_L_2.png" />
+    <None Remove="images\urokomoyou_S.png" />
+    <None Remove="images\urokomoyou_S_2.png" />
+    <None Remove="images\yagasuri_L.png" />
+    <None Remove="images\yagasuri_L_2.png" />
+    <None Remove="images\yagasuri_S.png" />
+    <None Remove="images\yagasuri_S_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\amimemon_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\amimemon_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\asanoha_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\asanoha_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fundoutsunagi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fundoutsunagi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\higaki_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\higaki_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\hishi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\hishi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ichimatsu_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ichimatsu_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ichinojitsunagi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ichinojitsunagi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\igeta_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\igeta_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kagome_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kagome_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kikko_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kikko_L_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kikko_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kikko_S_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\komochijima_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\komochijima_L_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\komochijima_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\komochijima_S_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kuginukitsunagi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kuginukitsunagi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kuginuki_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kuginuki_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kuruwatsunagi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kuruwatsunagi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\okinagoushi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\okinagoushi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\sankuzushi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\sankuzushi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\seigaiha_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\seigaiha_L_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\seigaiha_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\seigaiha_S_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\shippo_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\shippo_L_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\shippo_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\shippo_S_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\takedabishi_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\takedabishi_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\urokomoyou_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\urokomoyou_L_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\urokomoyou_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\urokomoyou_S_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\yagasuri_L.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\yagasuri_L_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\yagasuri_S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\yagasuri_S_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+	<Target Name="AfterResolveReferences">
+		<ItemGroup>
+			<EmbeddedResource Include="@(ReferenceCopyLocalPaths)" Condition="'%(ReferenceCopyLocalPaths.Extension)' == '.dll'">
+				<LogicalName>%(ReferenceCopyLocalPaths.DestinationSubDirectory)%(ReferenceCopyLocalPaths.Filename)%(ReferenceCopyLocalPaths.Extension)</LogicalName>
+			</EmbeddedResource>
+		</ItemGroup>
+	</Target>
+
+</Project>
