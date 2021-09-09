@@ -8,7 +8,7 @@ namespace JapanesePattern
     class PatternController
     {
         private int loopNumWidth = 5;
-        private int loopNumHeight = 6;
+        private int loopNumHeight = 5;
         private int originalStride = 0;
         private byte[] preRGBAOfBackGround = { 255, 255, 255, 255 };
         private byte[] nextRGBAOfBackGround = null;
@@ -73,14 +73,14 @@ namespace JapanesePattern
         /// Imageの画像を変更する
         /// </summary>
         /// <param name="dataInBytes">変更後画像のbyte配列</param>
-        /// <param name="DisplayImage">Image</param>
-        public void ChangeImage(byte[] dataInBytes, Image DisplayImage)
+        /// <param name="image">Image</param>
+        public void ChangeImage(byte[] dataInBytes, Image image)
         {
             int loopedStride = originalStride * loopNumWidth;
             BitmapSource bitmapSource = BitmapSource.Create(
                 GetloopedWidth(),GetloopedHeight(), 96, 96, PixelFormats.Pbgra32,
                 null, dataInBytes, loopedStride);
-            DisplayImage.Source = bitmapSource;
+            image.Source = bitmapSource;
         }
 
         /// <summary>

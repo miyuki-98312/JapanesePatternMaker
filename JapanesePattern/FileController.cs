@@ -22,7 +22,6 @@ namespace JapanesePattern
             saveFileDialog.FileName = "image.jpg";
             saveFileDialog.Filter = "JPEG(*.jpg*)|*.jpg|PNG(*.png*)|*.png";
             var result = saveFileDialog.ShowDialog() ?? false;
-
             if (result)
             {
                 SaveFile(bitmapSource, saveFileDialog.FileName);
