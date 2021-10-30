@@ -1,36 +1,55 @@
 # JapanesePatternMaker
 
-和風文様を簡単に作成できるWindows,Mac向けアプリ。(You can make Japanese patterns easily.For Windows, Mac.)
+和風文様を簡単に作成できるWindows向けアプリ。(You can make Japanese patterns easily.For Windows.)
 
 こんな和風文様を作れます。(You can make like this.)
 ![サンプル画像](https://user-images.githubusercontent.com/77544159/132674936-e58f1034-4a6a-4def-81f2-2ee186db864a.JPG)
 
-# 仕様について
+# 仕様について(Specifications)
 
-〇素材を選択する
+〇素材を選択する(Choosing Materials.)
 - 各素材大小2種類ずつ、合計50種類以上の素材から和風文様を作成します
 
-〇画像の表示
+  (You can choose a material from over 50 materials, pairs of big one and small one.)
+
+〇画像の表示(Showing patterns.)
 - 素材を縦横方向それぞれ1~30回繰り返して表示できます
+
+  (You can loop a material 1~30 times.)
 - 繰り返し数は半角数字で入力してください
 
-〇素材の色を変える
-- 素材には前景色と後景色があります
-- どちらの色も自由に変更できます
+  (Input the number of loop in half-width cloth.)
 
-〇画像にモザイクをかける
+〇素材の色を変える(Changing colors of a material.)
+- 素材には前景色と後景色があります
+ 
+  (You can input two colors by one material.)
+- どちらの色も自由に変更できます
+ 
+  (You can change the colors.)
+
+〇画像にモザイクをかける(Putting mosaic.)
 - 画像にモザイク加工をかけて、和紙のような見た目にすることができます
+
+  (Putting mosaic, then a pattern looks like Japanese traditional paper.)
 - 何回でも加工をかけられますが、加工するたび画像の明度が上がります(全体的に白色に近づいていきます)
 
-〇画像をぼかす
+  (You can put mosaic as many times as one like, But the pattern will reach white.)
+
+〇画像をぼかす(Shading off)
 - 画像をぼかします(文様によっては立体感を表現できます)
+
+  (Depending on the pattern, a three-dimensional effect can be expressed.)
 - ぼかしには上限があり、一定以上はぼかすことができません
 
-〇画像の保存
+  (Blur has an upper limit and cannot be blurred beyond a certain level.)
+  
+〇画像の保存(Saving the pattern as an image file.)
 - 画像をjpegかpngで保存できます
 
+  (You can save images in jpeg or png.)
 
-# ライセンス
+# ライセンス(License)
 
 本アプリケーションでは以下のオープンソースソフトウェアを使用しています。
 
@@ -40,6 +59,21 @@
 
 本アプリケーションのライセンスもこれに従います。
 ライセンス条件の全文を以下に記載します。
+
+
+(The following open source software is used in this application.
+
+
+Name:Extended WPF Toolkit
+
+Authority:Xceed Software Inc.
+
+License Name: Ms-PL
+
+
+The license for this application is also subject to this.
+
+The full license terms are listed below.)
 
 ----------------------------
 
